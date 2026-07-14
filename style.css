@@ -143,6 +143,7 @@ form input {
     padding: 10px;
     outline: 1px solid transparent;
     border: 1px solid black;
+    width: 100%;
 }
 
 form input:focus-visible {
@@ -175,4 +176,10 @@ form input:focus-visible {
 
 #expBtn {
     background-color: var(--red);
+}
+
+@media (max-width: 500px) {
+    .box {
+        width: 95%;
+    }
 }

@@ -12,7 +12,7 @@
             <section class="box_upper">
                 <h1>Expense Manager</h1>
                     <div class="Balance">
-                    <h2>₹0</h2>
+                    <h2 id="netAmount" >₹0</h2>
                     <h3>Your Balance</h3>
                 </div>
             </section>
@@ -41,7 +41,7 @@
             </div>
             <section class="transaction_form">
                 <h3>Add Transactions</h3>
-                <form>
+                <form id="transaction_form">
                     <div class="inputs">
                         <div class="form_control">
                         <label for="text">Text</label>
@@ -54,12 +54,12 @@
                     </div>
                     <div class="button_container">
 
-                        <button id="earnBtn">
-                            <p>₹0</p>
+                        <button type="submit" id="earnBtn">
+                            <p id="earning">₹0</p>
                             <p>Earnings</p>
                         </button>
-                        <button id="expBtn">
-                            <p>₹0</p>
+                        <button type="submit" id="expBtn">
+                            <p id="expense">₹0</p>
                             <p>Expenses</p>
                         </button>
                     </div>
